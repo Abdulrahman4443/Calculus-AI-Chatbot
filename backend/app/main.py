@@ -13,11 +13,12 @@ from backend.app.routes import chat
 # ✅ SECURITY ARCHITECT UPDATE: Define allowed domains explicitly.
 # TODO: replace with real production domain
 ALLOWED_ORIGINS = [
-    "https://your-calculus-website.com",  # Production domain
-    "http://localhost:3000",              # Local React development mapping
+    "https://calculus.quantumlogiclimited.com",
+    "https://calculus-runtime-frontend-ten.vercel.app",
+    "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "http://localhost:5173",              # Local Vite development mapping
-    "http://127.0.0.1:5173"
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
 
 
